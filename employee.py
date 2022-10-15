@@ -22,10 +22,10 @@ class Employee:
 
 
     def get_pay(self):
-        pass
+        return self.pay
 
     def __str__(self):
-        return self.name
+        return self.outputString
 
 
 # Billie works on a monthly salary of 4000.  Their total pay is 4000.
